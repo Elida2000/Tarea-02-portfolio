@@ -407,7 +407,7 @@ hr {
     rgba(102, 51, 153, 1) 100%
   );
   -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+  -webkit-text-fill-color: white;
   background-clip: inherit;
 }
 
@@ -453,7 +453,7 @@ hr {
     rgba(102, 51, 153, 1) 100%
   );
   -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+  -webkit-text-fill-color: white;
   background-clip: inherit;
 }
 
