@@ -357,7 +357,7 @@ hr {
 
 .knownledge {
   padding: 3rem 0;
-  min-height: 50vh;
+  min-height: 60vh;
   max-width: 70rem;
   margin: auto;
 }
@@ -384,7 +384,7 @@ hr {
 }
 
 .knownledge-item {
-  height: 10rem;
+  height: 15rem;
   padding: 3rem;
   position: relative;
   display: flex;
@@ -534,8 +534,8 @@ hr {
 
 .contact {
   width: 100%;
-  min-height: 100vh;
-  max-width: 70rem;
+  min-height: 30vh;
+  max-width: 50rem;
   margin: auto;
   padding-top: 5rem;
 }
