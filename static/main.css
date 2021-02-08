@@ -21,11 +21,11 @@ html {
 
 a {
   text-decoration: none;
-  color: rgb(3, 155, 155);
+  color: rgb(47, 236, 236);
 }
 
 a:hover {
-  color: rgba(249, 105, 14, 1);
+  color: rgb(50, 156, 82);
 }
 
 ul {
@@ -79,8 +79,8 @@ nav {
   margin: 5px 0;
   background: linear-gradient(
     135deg,
-    rgba(249, 105, 14, 1) 0%,
-    rgb(255, 255, 255) 100%
+    rgb(20, 195, 201) 50%,
+    rgb(255, 255, 255) 40%
   );
 }
 
@@ -89,8 +89,8 @@ nav {
   height: 3px;
   background: linear-gradient(
     135deg,
-    rgba(249, 105, 14, 1) 0%,
-    rgb(255, 255, 255) 100%
+    rgba(20, 195, 201) 50%,
+    rgb(255, 255, 255) 40%
   );
 }
 
@@ -101,8 +101,8 @@ nav {
   margin-left: 15px;
   background: linear-gradient(
     135deg,
-    rgba(249, 105, 14, 1) 0%,
-    rgb(255, 255, 255) 100%
+    rgba(20, 195, 201) 50%,
+    rgb(255, 255, 255) 40%
   );
 }
 
@@ -161,7 +161,7 @@ nav {
 }
 
 .nav-link:hover {
-  color: rgba(249, 105, 14, 1);
+  color: rgb(14, 88, 249);
 }
 
 .toggle {
@@ -198,7 +198,7 @@ nav {
   height: 100vh;
   background: linear-gradient(
       135deg,
-      rgba(0, 64, 77, 0.9) 0%,
+      rgba(5, 138, 165, 0.9) 0%,
       rgba(0, 0, 0, 0.8) 100%
     ),
     url("images/landing-page.png") center no-repeat;
@@ -232,7 +232,7 @@ nav {
 @keyframes typing {
   75% {
     width: 0ch;
-    color: rgba(249, 105, 14, 1);
+    color: rgb(48, 74, 189);
   }
   100% {
     width: 27ch;
@@ -306,15 +306,15 @@ nav {
 
 .about {
   width: 100%;
-  min-height: 100vh;
+  min-height: 50vh;
   max-width: 70rem;
   margin: auto;
 }
 
 .about .container {
   display: flex;
-  align-items: center;
-  min-height: 80vh;
+  align-items: left;
+  min-height: 20vh;
 }
 
 .about-img img {
@@ -322,7 +322,7 @@ nav {
   width: auto;
   border-radius: 50%;
   margin: 2rem;
-  box-shadow: 0 20px 30px 0 rgba(0, 255, 255, 0.15);
+  box-shadow: 0 20px 30px 0 rgba(8, 207, 191, 0.15);
 }
 
 .about-text-box {
@@ -347,19 +347,18 @@ hr {
   margin: 4rem 0;
   background: linear-gradient(
     to right,
-    rgba(249, 105, 14, 1) 0%,
+    rgb(20, 149, 209) 0%,
     rgba(102, 51, 153, 1) 100%
   );
   border: 0;
   height: 1px;
 }
+/*Knownledge*/
 
-/* Services */
-
-.services {
+.knownledge {
   padding: 3rem 0;
-  min-height: 100vh;
-  max-width: 90rem;
+  min-height: 50vh;
+  max-width: 70rem;
   margin: auto;
 }
 
@@ -378,14 +377,14 @@ hr {
   margin-bottom: 5rem;
 }
 
-.service-tiers {
+.knownledge-tiers {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
   gap: 2.5rem;
 }
 
-.tier-item {
-  height: 30rem;
+.knownledge-item {
+  height: 10rem;
   padding: 3rem;
   position: relative;
   display: flex;
@@ -394,34 +393,97 @@ hr {
   cursor: default;
 }
 
-.tier-item i {
+.knownledge-item i {
   font-size: 3.5rem;
 }
 
-.tier-item h2 {
+.knownledge-item h2 {
   font-size: 2rem;
   margin: 2rem 0;
   background: linear-gradient(
     to right,
-    rgba(249, 105, 14, 1) 0%,
-    rgba(102, 51, 153, 1) 100%
+    rgb(173, 2, 88) 0%,
+    rgb(120, 34, 206) 100%
   );
   -webkit-background-clip: text;
   -webkit-text-fill-color: white;
   background-clip: inherit;
 }
 
-.tier-item p {
+.knownledge-item p {
   font-family: "Poppins", sans-serif;
   font-size: 1.4rem;
 }
 
-/* Projects */
 
-.projects {
+/* education */
+
+.education {
   padding: 3rem 0;
-  min-height: 100vh;
+  min-height: 60vh;
   max-width: 70rem;
+  margin: auto;
+}
+
+.title-heading {
+  text-align: center;
+  margin-bottom: 5rem;
+}
+
+.title-heading h2 {
+  font-size: 2rem;
+  margin: 0.5rem 0 1rem 0;
+}
+
+.title-heading p {
+  font-family: "Poppins", sans-serif;
+  margin-bottom: 5rem;
+}
+
+.education-tiers {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
+  gap: 2.5rem;
+}
+
+.education-item {
+  height: 15rem;
+  padding: 3rem;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  cursor: default;
+}
+
+.education-item i {
+  font-size: 3.5rem;
+}
+
+.education-item h2 {
+  font-size: 2rem;
+  margin: 2rem 0;
+  background: linear-gradient(
+    to right,
+    rgb(173, 2, 88) 0%,
+    rgb(120, 34, 206) 100%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: white;
+  background-clip: inherit;
+}
+
+.education-item p {
+  font-family: "Poppins", sans-serif;
+  font-size: 1.4rem;
+}
+
+/* Information */
+
+.information {
+  padding: 3rem 0;
+  min-height: 50vh;
+  max-width: 60rem;
   margin: auto;
 }
 
@@ -429,40 +491,40 @@ hr {
   margin: 0 3rem 0 0;
 }
 
-.project-item {
+.information-item {
   display: flex;
   align-items: center;
   justify-content: center;
   margin: 0 1.45rem 5rem 1.45rem;
 }
 
-.project-img {
+.information-img {
+  flex: 0.4;
+}
+
+.information-description {
   flex: 1;
 }
 
-.project-description {
-  flex: 1;
-}
-
-.project-description h2 {
+.information-description h2 {
   font-size: 2rem;
   margin: 2rem 0;
   background: linear-gradient(
     to right,
-    rgba(249, 105, 14, 1) 0%,
-    rgba(102, 51, 153, 1) 100%
+    rgb(173, 2, 88) 0%,
+    rgb(120, 34, 206) 100%
   );
   -webkit-background-clip: text;
   -webkit-text-fill-color: white;
   background-clip: inherit;
 }
 
-.project-description p {
+.information-description p {
   font-family: "Poppins", sans-serif;
   font-size: 1.4rem;
 }
 
-.project-link {
+.information-link {
   display: inline-block;
   margin: 2rem 0;
   font-size: 1.4rem;
